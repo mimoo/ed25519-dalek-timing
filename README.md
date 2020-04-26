@@ -2,6 +2,8 @@
 
 Using [dudect](https://github.com/oreparaz/dudect) to figure out if [ed25519-dalek](https://github.com/dalek-cryptography/ed25519-dalek) is constant-time.
 
+Dudect is not the only tool that exist to assess constant-time code, here is [a slide deck](https://sbseg2017.redes.unb.br/wp-content/uploads/2017/11/sbseg2017_wticg_benchmarking-tools-verification.pdf) on the different tools and how they compare.
+
 ## What was done?
 
 * I added the `./dudect/dut/dalek` C wrapper and the target to the `./dudect/Makefile`
